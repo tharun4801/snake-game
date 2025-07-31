@@ -24,7 +24,7 @@ def move_snake(snake,direction):
     elif direction=='left':
         new_head=[head[0]-1,head[1]]
     elif direction=='right':
-        new_head==[head[0]+1,head[1]]
+        new_head=[head[0]+1,head[1]]
     else:
         print("Invalid direction,use up/down/right/left.")
         return snake,False
