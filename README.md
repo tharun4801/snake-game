@@ -67,3 +67,22 @@ def snake_game():
             snake.pop(0)
     print("Final score:",score)
 snake_game()               
+
+OUTPUT:
+Score: 27
+ENTER direction(up/down/left/right): left
+. . . F . S S S S . 
+. . . . . S . . S . 
+. . . . . . . . S . 
+. . . . . . . . S . 
+. . . . . . . . S . 
+. . S S S S S S S . 
+. . S . . . . S S . 
+. . S . . . . S S . 
+. . S . . . . . . . 
+S S S . . . . . . . 
+
+Score: 27
+ENTER direction(up/down/left/right): left
+You hit the wall,Game over!!!
+Final score: 27
